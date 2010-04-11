@@ -16,3 +16,39 @@ Rendering rescues/layout (not_found)
 Processing PagesController#home (for 127.0.0.1 at 2010-03-22 19:22:16) [GET]
 Rendering pages/home
 Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-03-22 21:32:38) [GET]
+Rendering pages/about
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-03-22 21:34:16) [GET]
+Rendering pages/about
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-03-22 22:27:12) [GET]
+Rendering pages/home
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#http (for 127.0.0.1 at 2010-03-23 22:32:22) [GET]
+
+ActionController::UnknownAction (No action responded to http. Actions: about, contact, and home):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-11 17:30:36) [GET]
+
+ActionController::RoutingError (No route matches "/controller/action" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-04-11 17:31:10) [GET]
+Rendering pages/home
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/home]
