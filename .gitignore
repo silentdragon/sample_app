@@ -1,3 +1,4 @@
+log/test.log
 log/*.log
 tmp/*
 tmp/**/*
