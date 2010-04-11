@@ -90,3 +90,15 @@ Processing PagesController#about (for 127.0.0.1 at 2010-04-11 18:56:15) [GET]
 Rendering template within layouts/application
 Rendering pages/about
 Completed in 22ms (View: 19, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-04-11 20:03:00) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-04-11 20:03:58) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/contact]
